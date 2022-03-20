@@ -1,0 +1,41 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        background-image: url(../img/logoNetflix.svg);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        height: 40px;
+
+    }
+    .logo{
+        display: none;
+    }
+
+    nav {
+        margin: 10px 0px 10px 8px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 250px;
+    }
+
+    .box-filme{
+        height: 90%;
+        width: 90%;
+    }
+    .carrosel-filmes{
+        margin: 10px;
+    }
+}   
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
